@@ -1,0 +1,170 @@
+/*
+CTC Separate Stylesheet
+Updated: 2021-02-20 09:36:22
+
+*/
+/* ------------------------карусель постов--------------------------------- */
+.anwp-pg-wrap .anwp-pg-post-teaser__thumbnail {
+	border-style: groove;
+	border-color: #002C8F;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 0px rgba(110, 192, 228, 0.6);
+}
+
+/* ------------------------Форма заказа------------------------------------- */
+
+.caldera_forms_form {
+	margin: 20px;
+}
+
+
+.caldera-grid .form-control {
+	width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    text-align: left;
+    background-color: #DDDDDD !important;
+    color: #151515 !important;
+    border-radius: 5px 5px 5px 5px !important;
+}
+
+/* разделительные полоски */
+#CF6019b0c2488b8_1-row-1,
+#CF6019b0c2488b8_1-row-2,
+#CF6019b0c2488b8_1-row-3,
+#CF6019b0c2488b8_1-row-4 {
+	margin: 20px;
+	border-bottom: #365aab solid 2px;
+}
+
+/* поле формы "До сплати" */
+.mv-cf-total h3, 
+.mv-cf-total span {
+	margin: 0;
+	color:#cac82a;
+	font-weight: 700;
+}
+
+/* надписи над элементами формы */
+.form-group label {
+    color: #C8C8C8;
+}
+
+/* radio button */
+
+.mv-caldera-radio input[type="radio"],
+.mv-caldera-checkbox input[type="checkbox"]
+ {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: sub;
+}
+
+/* ----------количество бутлей и сумма ------------------*/
+#CF6019b0c2488b8_1-row-4{
+	display: flex;
+	justify-content: space-around;
+}
+
+#CF6019b0c2488b8_1-row-4 .first_col, 
+#CF6019b0c2488b8_1-row-4 .last_col {
+	max-width: 15%;
+	min-width: 100px;
+}
+
+/* ----------------------кнопка----------------------- */
+
+.mv-cf-btn-submit input[type="submit"], .mv-btn {
+	background: transparent;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 1vw auto;
+	padding: 1vw 4vw;
+	text-transform: uppercase;
+    background-image: linear-gradient(90deg, #5c81d6d4, #ffffff);
+    background-size: 0;
+    transition: .5s;
+    background-repeat: no-repeat;
+  }
+
+.mv-cf-btn-submit input[type="submit"]:hover, .mv-btn:hover {
+	color: #21098a;
+	background-size: 100%;
+	border-color: #fff;
+	background-color: transparent;
+}
+  
+/* ------------------отзывы ---------------*/
+.mv-btn-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* страница отзывов */
+.wpmtst-testimonial-inner {
+	background-color: #e6efef;
+	border-radius: 10px;
+}
+.testimonial-form {
+	background-color: #006fc3;
+	border-radius: 10px;
+	color: #e6efef;
+}
+.testimonial-form input[type="text"],
+.testimonial-form input[type="email"],
+.testimonial-form textarea {
+	background-color: #e6efef;
+	border-radius: 10px;
+}
+.wpmtst-submit {
+	display: block;
+	text-align: center;
+}
+.testimonial-form input[type="submit"] {
+	background: transparent;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 1vw auto;
+	padding: .8vw 1.2vw;
+	text-transform: uppercase;
+    background-image: linear-gradient(90deg, #5c81d6d4, #ffffff);
+    background-size: 0;
+    transition: .5s;
+    background-repeat: no-repeat;
+}
+
+.testimonial-form input[type="submit"]:hover {
+	color: #21098a;
+	background-size: 100%;
+	border-color: #fff;
+	background-color: transparent;
+}
+.testimonials-on-page .testimonial-name {
+	font-style: italic;
+}
+
+/* ---------------------меню в шапке------------------ */
+.wrapfixed .sticky-menu
+.hfe-site-logo img {
+	width: 70% !important;
+	height: auto;
+}
+
+.wrapfixed .sticky-menu
+.hfe-nav-menu ul {
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
